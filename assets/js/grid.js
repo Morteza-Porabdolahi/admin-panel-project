@@ -88,4 +88,8 @@ $(document).ready(function () {
          $('#screen-expand').removeClass('d-none');
       }
    }
-   $('#full-screen
+   $('#full-screen').click(function (e) {
+      toggleFullScreen();
+   });
+   // -------------------------------- //
+});
